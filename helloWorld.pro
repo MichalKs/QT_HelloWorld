@@ -5,17 +5,15 @@
 #-------------------------------------------------
 
 QT       += core gui
-QT       += serialport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = helloWorld
+TARGET = helloworld
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp
+SOURCES += main.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  +=
 
-FORMS    += mainwindow.ui
+FORMS    +=

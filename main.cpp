@@ -1,12 +1,15 @@
-#include "mainwindow.h"
+
 #include <QApplication>
-#include <QSerialPort>
+#include <QLabel>
 
-int main(int argc, char *argv[])
-{
-    QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
+int main(int argc, char* argv[]) {
 
-    return a.exec();
+  QApplication app(argc, argv);
+
+  QLabel* label = new QLabel("Hello QT!!!");
+
+  label->show();
+
+  return app.exec();
+
 }
